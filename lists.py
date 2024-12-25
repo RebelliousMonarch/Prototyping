@@ -1,7 +1,6 @@
 '''
 Overly complicated prototype for movie/time selection menu
 I know there are better ways to do this but it works for now while I'm figuring Python out again
-It's definitely better than the switch/match statements used in the main file
 This is meant to eventually replace those switch/match cases for menu selection
 '''
 # list of movies to add or remove from
@@ -37,9 +36,3 @@ removeTime(viewTime)
 # prints movieList and viewTime (to prove changes)
 print(movieList)
 print(viewTime)
-
-'''
-The more I look at this file the more it reminds me of how I would code in
-"Intro to scripting" in college and that makes me cringe
-I apologize to anyone who views this repository
-'''
