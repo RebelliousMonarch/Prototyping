@@ -6,9 +6,9 @@ I ORIGINALLY WROTE IN JAVA
 # TODO 1a: Curently moviePicker just prints "Invalid Selection" and ends the program
 
 # TODO 2: Create userAuth object and add Admin/Customer types to it
-# TODO 3: Allow admin to edit and maybe add movies/prices
+# TODO 3: Allow admin to edit and maybe add movies/prices [IN PROGRESS]
 # TODO 4: If movieTitle is an invalid selection reset ticketPice/ticketsPurchased to zero
-companyName = 'Monarchy Cinema'
+companyName = 'MonarchyPOS'
 
 firstName = input('Enter First Name: ')  # user inputs first and last name
 lastName = input('Enter Last Name: ')
