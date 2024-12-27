@@ -12,10 +12,10 @@ viewTime = ['12pm', '1:30pm', '3pm', '4:30pm', '6pm', '7:30pm', '9pm']
 print(movieList, viewTime)  # print lists
 
 # I know this is a terrible way of doing this but for now it's what works
-movie = input('Type name of movie you want to add: ')  # user input adds to movieList
-noMovie = input('Type name of movie you want to remove: ')  # user input removes from movieList
-time = input('Type time slot you want to add: ')  # user input adds to viewTime
-noTime = input('Type time slot you want to remove: ')  # user input removes from viewTime
+movie = []  # user input adds to movieList
+noMovie = []  # user input removes from movieList
+time = []  # user input adds to viewTime
+noTime = []  # user input removes from viewTime
 
 # defining functions 
 def addMovie(movieList):  # function that lets user add movies to movieList
